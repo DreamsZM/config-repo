@@ -12,6 +12,9 @@ spring:
         myMessage:
           group: order
           content-type: application/json
+  redis:
+    host: 192.168.1.141
+    port: 6379
   rabbitmq:
       host: 192.168.1.141
       port: 5672
